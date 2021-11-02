@@ -5,9 +5,13 @@ This Snake Game Is Made Using Python 3.6.5 & Pygame Module. Hope You Will Like T
 
 To play the game
 1-download zip file 
+
 2-extract the zip file
+
 3-simply double click on the Snake.exe.
+
 4-enjoy the game
+
 
 
 Installing The Pygame Module:
