@@ -68,7 +68,6 @@ def welcome():
         text_screen(" SNAKE GAME ", gold, 560, 140)
         text_screen("   PLAY?- ", red, 560, 260)
         text_screen("ENTER SPACE ", red, 560, 300)
-        text_screen("P_R_I_T_A_M__D_A_Y_S", yellow, 450, 755)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 exit_game = True
