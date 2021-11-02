@@ -190,7 +190,7 @@ def game_loop():
             pygame.draw.rect(GameWindow, black, [food_x, food_y, food_size, food_size])  # draw a rectangle food
             text_screen("SCORE : " + str(score) , catedblue, 570, 20)
             text_screen( "HIGH-SCORE:" + str(highscore), red, 570, 50)
-            text_screen("P_R_I_T_A_M__D_A_Y_S", yellow, 450, 755)
+            #text_screen("P_R_I_T_A_M__D_A_Y_S", yellow, 450, 755)
 
             head = []
             head.append(snake_x)
