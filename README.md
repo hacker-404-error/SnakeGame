@@ -1,42 +1,53 @@
 # SnakeGame
 
-Snake Game using python pygame
-
-
 This Snake Game Is Made Using Python 3.6.5 & Pygame Module. 
 
-Hope You Will Like The Game.. and also u can use the code to make your own version of game.
+
+## How To Play
+
+1. Download zip file 
+
+2. Extract the zip file
+
+3. Go to the dist folder
+
+4. Run the main.exe file
+
+5. Enjoy the game
+
+
+## Using main.py file
+
+>NOTE - Python & Pygame Module should be installed already before playing through main.py.
 
 
 
-To play the game
+#### Installing The Pygame Module:
 
-1-download zip file 
+To install Pygame, open the command prompt and give the command as shown below:
 
-2-extract the zip file
+```
+pip install pygame
+```
 
-3-simply double click on the Snake.exe.
+![pygame installation](https://media.geeksforgeeks.org/wp-content/uploads/20210415121952/WhatsAppImage20210415at121530PM.jpeg)
 
-4-enjoy the game
+Pygame is successfully installed as shown in the image above.
 
+**You can confirm that by opening a new terminal and import the Pygame library to see whether it is working fine or not in your system.**
 
-
-Installing The Pygame Module:
-
-1-Open Terminal/CMD
-
-2-Type pip install pygame/ pip3 install pygame
-
-  OR
-
-  Open Terminal or CMD, then Type pip install -r <path to the game>
+![pygame confirmation](https://media.geeksforgeeks.org/wp-content/uploads/20210415121950/WhatsAppImage20210415at121849PM.jpeg)
 
 
-Dont Delete Any Files.. IT MAY CRASH THE GAME!
 
-Start The Game Using Snake.exe File!
+## Credits
 
-Cheats
-Press Q to add extra 10 points. 😄
+**Scripted By**
 
-ThankYou!
+[Pritam Das](https://github.com/hacker-404-error)
+
+
+**Modified & Designed By**
+
+[Anupam Verma](https://github.com/anupam215769)
+
