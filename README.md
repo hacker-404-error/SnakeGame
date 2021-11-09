@@ -3,6 +3,12 @@
 <p align="center">
 This Snake Game Is Made Using Python 3 & Pygame Module. 
 </p>
+
+<p align="center">
+<a href="https://github.com/anupam215769/SnakeGame/graphs/contributors"><img src="https://img.shields.io/github/contributors/anupam215769/SnakeGame?color=brightgreen"></a>
+<a href="https://github.com/anupam215769/SnakeGame/stargazers"><img src="https://img.shields.io/github/stars/anupam215769/SnakeGame?color=0059b3"></a>
+<a href="https://github.com/anupam215769/SnakeGame/network/members"><img src="https://img.shields.io/github/forks/anupam215769/SnakeGame?color=yellow"></a>
+</p>
   
 ![ss1](https://i.ibb.co/cTr5bBR/Screenshot-1.png)
 
