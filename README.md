@@ -4,6 +4,10 @@ This Snake Game Is Made Using Python 3 & Pygame Module.
 
 ![ss1](https://i.ibb.co/cTr5bBR/Screenshot-1.png)
 
+![ss1](https://i.ibb.co/hXp9Jdb/Screenshot-2.png)
+
+![ss1](https://i.ibb.co/t21fVmF/Screenshot-3.png)
+
 ## How To Play
 
 1. Download zip file 
