@@ -20,11 +20,7 @@ pygame.display.update()
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 55)
 
-if (not os.path.exists("hiscore.txt")):
-        with open("hiscore.txt", "w") as f:
-            f.write("0")
-        with open ("hiscore.txt", "r") as f:
-            highscore = f.read()
+
 
 
 def text_screen(text, color, x, y):
@@ -73,9 +69,6 @@ def gameloop():
     velocity_y = 0
     snk_list = []
     snk_length = 1
-    with open("hiscore.txt", "r") as f:
-        hiscore = f.read()
-
     food_x = random.randint(20, screen_width / 2)
     food_y = random.randint(20, screen_height / 2)
     score = 0
@@ -83,11 +76,19 @@ def gameloop():
     snake_size = 30
     fps = 60
 
-
+    if (not os.path.exists("highscore.txt")):
+        with open("highscore.txt", "a") as f:
+            f.write("0")
+    with open ("highscore.txt", "r") as f:
+        highscore = f.read()
 
 
     while not exit_game:
-        if game_over:
+
+        with open("highscore.txt", "w") as f:
+                f.write(str(highscore))
+
+        if game_over:  
             gameWindow.fill(white)
             text_screen("Game Over! Press Space Bar To Continue", (0, 191, 255), 60, 250)
 
@@ -133,11 +134,11 @@ def gameloop():
                 food_x = random.randint(20, screen_width / 2)
                 food_y = random.randint(20, screen_height / 2)
                 snk_length +=5
-                if score>int(hiscore):
-                    hiscore = score
+                if score>int(highscore):
+                    highscore = score
 
             gameWindow.fill(white)
-            text_screen("Score: " + str(score) + "  Hiscore: "+str(hiscore), (128, 128, 128), 5, 5)
+            text_screen("Score: " + str(score) + "  Highscore: "+str(highscore), (128, 128, 128), 5, 5)
             pygame.draw.rect(gameWindow, red, [food_x, food_y, snake_size, snake_size])
 
 
