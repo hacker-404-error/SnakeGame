@@ -1,6 +1,16 @@
 # SnakeGame
 
-This Snake Game Is Made Using Python 3.6.5 & Pygame Module. 
+<p align="center">
+This Snake Game Is Made Using Python 3 & Pygame Module. 
+</p>
+  
+![ss1](https://i.ibb.co/cTr5bBR/Screenshot-1.png)
+
+![ss1](https://i.ibb.co/hXp9Jdb/Screenshot-2.png)
+
+![ss1](https://i.ibb.co/t21fVmF/Screenshot-3.png)
+
+<p align="center"><img src="https://raw.githubusercontent.com/anupam215769/SnakeGame/main/ezgif-3-d2bfe6f9ea29.gif"></p>
 
 
 ## How To Play
@@ -9,9 +19,11 @@ This Snake Game Is Made Using Python 3.6.5 & Pygame Module.
 
 2. Extract the zip file
 
-3. Run the main.exe file
+3. Go to the /dist folder
 
-4. Enjoy the game
+4. Run the main.exe file
+
+5. Enjoy the game
 
 
 ## Using main.py file
@@ -48,4 +60,5 @@ Pygame is successfully installed as shown in the image above.
 **Modified & Designed By**
 
 [Anupam Verma](https://github.com/anupam215769)
+
 
