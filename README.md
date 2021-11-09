@@ -1,6 +1,6 @@
 # SnakeGame
 
-This Snake Game Is Made Using Python 3.6.5 & Pygame Module. 
+This Snake Game Is Made Using Python 3 & Pygame Module. 
 
 
 ## How To Play
