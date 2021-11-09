@@ -2,6 +2,7 @@
 
 This Snake Game Is Made Using Python 3 & Pygame Module. 
 
+![ss1](https://imgur.com/a/VfhRDaD)
 
 ## How To Play
 
