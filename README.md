@@ -14,9 +14,11 @@ This Snake Game Is Made Using Python 3 & Pygame Module.
 
 2. Extract the zip file
 
-3. Run the main.exe file
+3. Go to the /dist folder
 
-4. Enjoy the game
+4. Run the main.exe file
+
+5. Enjoy the game
 
 
 ## Using main.py file
