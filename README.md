@@ -5,9 +5,19 @@ This Snake Game Is Made Using Python 3 & Pygame Module.
 </p>
 
 <p align="center">
+<a href="https://github.com/anupam215769/SnakeGame"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://github.com/anupam215769/SnakeGame"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
+<a href="https://github.com/anupam215769/SnakeGame"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
+<a href="https://github.com/smaranjitghose/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
+</p>
+<p align="center">
 <a href="https://github.com/anupam215769/SnakeGame/graphs/contributors"><img src="https://img.shields.io/github/contributors/anupam215769/SnakeGame?color=brightgreen"></a>
 <a href="https://github.com/anupam215769/SnakeGame/stargazers"><img src="https://img.shields.io/github/stars/anupam215769/SnakeGame?color=0059b3"></a>
 <a href="https://github.com/anupam215769/SnakeGame/network/members"><img src="https://img.shields.io/github/forks/anupam215769/SnakeGame?color=yellow"></a>
+<a href="https://github.com/anupam215769/SnakeGame/issues"><img src="https://img.shields.io/github/issues/anupam215769/SnakeGame?color=0059b3"></a>
+<a href="https://github.com/anupam215769/SnakeGame/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/anupam215769/SnakeGame?color=yellow"></a>
+<a href="https://github.com/anupam215769/SnakeGame/pulls"><img src="https://img.shields.io/github/issues-pr/anupam215769/SnakeGame?color=brightgreen"></a>
+<a href="https://github.com/anupam215769/SnakeGame/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/anupam215769/SnakeGame?color=0059b3"></a>
 </p>
   
 ![ss1](https://i.ibb.co/cTr5bBR/Screenshot-1.png)
