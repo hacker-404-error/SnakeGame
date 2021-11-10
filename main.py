@@ -1,18 +1,28 @@
+
+#Import modules
 import pygame
 import random
 import os
 
+
+# initialize pygame modules
 pygame.init()
+
+
 
 # Colors
 white = (255, 255, 255)
 red = (255, 0, 0)
 black = (0, 0, 0)
 
+
+
 # Creating window
 screen_width = 900
 screen_height = 600
 gameWindow = pygame.display.set_mode((screen_width, screen_height))
+
+
 
 # Game Title
 pygame.display.set_caption("Snake Game")
@@ -22,16 +32,19 @@ font = pygame.font.SysFont(None, 55)
 
 
 
-
+# Creating function which display chacters of specific texts colors and size
 def text_screen(text, color, x, y):
     screen_text = font.render(text, True, color)
     gameWindow.blit(screen_text, [x,y])
+    
 
-
+#Plotting our player snake in game window
 def plot_snake(gameWindow, color, snk_list, snake_size):
     for x,y in snk_list:
         pygame.draw.rect(gameWindow, color, [x, y, snake_size, snake_size])
-
+        
+        
+# Welcome screen 
 def welcome():
     exit_game = False
     while not exit_game:
@@ -58,6 +71,7 @@ def welcome():
 
     
 
+    
 # Game Loop
 def gameloop():
     # Game specific variables
@@ -158,7 +172,6 @@ def gameloop():
             plot_snake(gameWindow, black, snk_list, snake_size)
         pygame.display.update()
         clock.tick(fps)
-
     pygame.quit()
     quit()
 welcome()
