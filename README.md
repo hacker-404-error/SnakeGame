@@ -19,9 +19,10 @@ This Snake Game Is Made Using Python 3 & Pygame Module.
 <a href="https://github.com/hacker-404-error/SnakeGame/pulls"><img src="https://img.shields.io/github/issues-pr/hacker-404-error/SnakeGame?color=brightgreen"></a>
 <a href="https://github.com/hacker-404-error/SnakeGame/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/hacker-404-error/SnakeGame?color=0059b3"></a>
 </p>
-  
+
+
 ## Demo
-  
+
 ![ss1](https://i.ibb.co/cTr5bBR/Screenshot-1.png)
 
 ![ss1](https://i.ibb.co/hXp9Jdb/Screenshot-2.png)
